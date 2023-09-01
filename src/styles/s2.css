@@ -1,0 +1,63 @@
+.s2 {
+    width: 100%;
+    background-color: white;
+    margin: 0;
+    text-align: center;
+    color: black;
+    overflow: hidden;
+}
+
+.s2 *:not(.q-card, h1:last-child) {
+    z-index: 3;
+}
+
+.s2 h1:first-child {
+    transform: translateY(-150px);
+}
+
+.s2 h2 {
+    font-family: "Paula";
+    letter-spacing: 2vw;
+}
+
+.s2 .q-card {
+    position: relative;
+    z-index: 2;
+    background-color: rgb(181, 255, 108);
+}
+
+.s2 .watermark {
+    top: 180%;
+    right: 0;
+}
+
+.logo-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-container div {
+    width: calc(8% + 30px);
+    aspect-ratio: 1/1;
+    margin: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.ee {
+    position: absolute;
+    top: 180%;
+    left: 0;
+    width: 30%;
+}
+
+@media screen and (max-width: 800px) {
+    .ee {
+        display: none;
+    }
+}
