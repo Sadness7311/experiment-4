@@ -10,15 +10,7 @@ import gsap from 'gsap'
 function App() {
 
   useEffect(() => {  
-    const scroll = new LocomotiveScroll({
-      smoothMobile: true,
-      mobile: { 
-        smooth: true
-      },
-      tablet: { 
-        breakpoint: 0
-      }
-  }) 
+    const scroll = new LocomotiveScroll() 
     ScrollReveal().reveal('body *:not(h1)') 
   }, [])
 
