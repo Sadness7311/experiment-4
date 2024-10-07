@@ -23,10 +23,6 @@ export default function S2() {
                 <div style={ { backgroundImage: "url('gsap-logo.svg')" }}></div>
                 <div style={ { backgroundImage: "url('mongo-logo.svg')" }}></div>
             </div>
-
-            <QuoteCard quote="Do not climb the mountain for the world to see you, climb it for you to see the world." />
-            <img src="react.svg" alt="react" data-scroll data-scroll-speed='.5' className="ee" />
-            <h1 className="watermark">Dev</h1>
         </div>
     )
 }
