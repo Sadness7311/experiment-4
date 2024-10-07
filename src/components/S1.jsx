@@ -15,9 +15,6 @@ export default function S1() {
             <Logo />
             <Menu />
             <MenuHandler />
-            <div data-scroll data-scroll-id="card">
-                <QuoteCard quote="When there is no struggle, there is no strength."/>
-            </div>
         </div>
     )
 }
