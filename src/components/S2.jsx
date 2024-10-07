@@ -1,4 +1,3 @@
-import QuoteCard from "./QuoteCard";
 import { useEffect } from 'react'
 import gsap from 'gsap'
 export default function S2() {
