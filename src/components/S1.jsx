@@ -1,7 +1,6 @@
 import Logo from "./Logo";
 import Menu from "./Menu";
 import MenuHandler from "./MenuHandler";
-import QuoteCard from "./QuoteCard";
 
 export default function S1() { 
     return (
